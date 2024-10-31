@@ -4,8 +4,8 @@
     "build": "next build",
     "dev": "next dev --turbo",
     "start": "next start",
-    "prepare": "echo 'Prepare script skipped'",
-    "vercel-build": "npm run prepare && next build"
+    "vercel-build": "next build",
+    "prepare": "echo 'Skipping prepare'"
   },
   "dependencies": {
     "@heroicons/react": "^2.1.4",
